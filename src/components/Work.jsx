@@ -13,7 +13,7 @@ const Work = () => {
 
 
   return (
-    <div className='w-full  text-white'>
+    <div className='w-full  text-white mt-10'>
         <div className='relative max-w-4xl mx-auto text-center'>
             <h1 className='leading-none text-[30vw] font-medium tracking-wide select-none' >work</h1>
             <div className='absolute top-0 h-full w-full'>
