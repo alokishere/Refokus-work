@@ -1,5 +1,5 @@
-import React from "react";
-import '../Marquee.css' // import custom CSS for animations
+
+import './marquee.css' // import custom CSS for animations
 
 const Marquee = () => {
   const images = [
