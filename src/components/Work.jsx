@@ -15,9 +15,8 @@ const [images, setimages] = useState([
     
    ])
 
-useMotionValueEvent(scrollYProgress, "change", (latest)=>{
+scrollYProgress.on("change", (latest)=>{
   function showNhideImages(arr){
-    
     setimages(prev=>{
       return prev.map((item,index)=>{
         if(arr.includes(index)){
