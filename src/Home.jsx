@@ -5,6 +5,7 @@ import Stripes from './components/Stripes';
 import Products from './components/Products';
 import Marquee from './components/Marquee';
 import Crads from './components/Crads';
+import Footer from './components/Footer';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Products/>
       <Marquee/>
       <Crads/>
+      <Footer/>
     </div>
   )
 }

@@ -12,8 +12,8 @@ const Stripes = () => {
     ]
   return (
     <div className='w-full h-20 flex items-center justify-between mt-25'>
-      {data.map((item)=>{
-      return <Stripe url={item.url} num={item.num}/>
+      {data.map((item,index)=>{
+      return <Stripe url={item.url} key={index} num={item.num}/>
       })}
     </div>
   )
